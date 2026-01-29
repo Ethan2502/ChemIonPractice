@@ -1,0 +1,21 @@
+/* App-specific styles */
+header {
+  gap: 1rem;
+}
+
+main {
+  min-height: 60vh;
+}
+
+/* Desktop-only text helper */
+@media (max-width: 768px) {
+  .desktop-only {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .desktop-only {
+    display: inline;
+  }
+}
